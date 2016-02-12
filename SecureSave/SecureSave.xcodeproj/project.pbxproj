@@ -12,6 +12,7 @@
 		DACC64091C6E90A300A9C04D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DACC64071C6E90A300A9C04D /* Main.storyboard */; };
 		DACC640B1C6E90A300A9C04D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DACC640A1C6E90A300A9C04D /* Assets.xcassets */; };
 		DACC640E1C6E90A300A9C04D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DACC640C1C6E90A300A9C04D /* LaunchScreen.storyboard */; };
+		DACC64161C6E933E00A9C04D /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACC64151C6E933E00A9C04D /* KeychainWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		DACC640A1C6E90A300A9C04D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DACC640D1C6E90A300A9C04D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DACC640F1C6E90A300A9C04D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DACC64151C6E933E00A9C04D /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				DACC640A1C6E90A300A9C04D /* Assets.xcassets */,
 				DACC640C1C6E90A300A9C04D /* LaunchScreen.storyboard */,
 				DACC640F1C6E90A300A9C04D /* Info.plist */,
+				DACC64151C6E933E00A9C04D /* KeychainWrapper.swift */,
 			);
 			path = SecureSave;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DACC64161C6E933E00A9C04D /* KeychainWrapper.swift in Sources */,
 				DACC64061C6E90A300A9C04D /* ViewController.swift in Sources */,
 				DACC64041C6E90A300A9C04D /* AppDelegate.swift in Sources */,
 			);
